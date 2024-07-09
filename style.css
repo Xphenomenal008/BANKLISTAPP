@@ -1,0 +1,159 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #023430;
+    color: white;
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-top: 20px;
+    font-size: larger;
+}
+.login input{
+     border-radius: 20px;
+     height: 20px;
+     font-size: medium;
+     padding-left: 10px;
+}
+.login button{
+    border-radius: 10px;
+    height: 30px;
+    transition: transform 0.5s ease-out;
+}
+.logic{
+color: black;
+    opacity: 0;
+    margin: 60px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+     transform: translateX(-100%);
+     transition: opacity 1s ease-out,transform 1s ease-out
+}
+.balance{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+font-weight: bolder;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+.actualF{
+    display: flex;
+     align-content: center;
+     align-items: center;
+     justify-items: center;
+     justify-content: space-around;
+    margin-bottom: 100px;
+    gap: 40px;
+    border-radius: 20px;
+    background: rgb(116, 152, 60);
+    
+
+
+}
+.movements{
+    font-weight: 700;
+    gap: 30px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    padding:  20px 0;
+    width: 80%;
+    align-self: center;
+    height: 100%;
+    
+}
+.movie{
+    display: flex;
+    gap: 60px;
+}
+.actions{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+     font: bold;
+    padding: 40px;
+    font-size: large;
+    margin-bottom: 30px;
+}
+
+.transfer{
+    background-color: rgb(201, 201, 18);
+    padding: 18px;
+border-radius: 20px;
+}
+.transfer input{
+     border: none;
+    width: 70px;
+    background-color: yellow;
+    
+}
+.dat{
+     font-size: x-small;
+    font-weight: lighter;
+}
+.request{
+    background-color: green;
+    padding: 18px;
+    border-radius: 20px;
+}
+.request input{
+    border: none;
+    width: 60px;
+    background-color: rgb(115, 248, 115);
+}
+.close{
+    background-color: red;
+    padding: 18px;
+    border-radius: 20px;
+
+}
+.close input{
+    border: none;
+    width: 60px;
+    background-color: rgb(248, 127, 127);
+
+}
+.foot{
+    display: flex;
+
+      justify-content: space-between;
+      align-items: center;
+      background: white;
+      font-weight: 700;
+      padding: 20px;
+    
+}
+.fee{
+    display: flex;
+    gap: 20px;
+  
+}
+.feet{
+ margin-left: 20px;
+}
+.welcome{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.amdat{
+    display: flex;
+    gap: 20px;
+}
+.last{
+    margin-bottom: 200px;
+    background: #000;
+
+}
