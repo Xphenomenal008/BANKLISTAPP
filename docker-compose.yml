@@ -1,0 +1,6 @@
+
+services:
+  newbank:
+    image: xphenomenal/newbank:latest
+    ports:
+      - "8080:80"
